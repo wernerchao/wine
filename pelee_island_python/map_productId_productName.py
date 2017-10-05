@@ -49,8 +49,8 @@ if __name__ == '__main__':
     
     # Load in CSV files
     rec_result = \
-        pd.read_csv('Recommender_System_Pelee_Island _Web Service_ - 506153734175476c4f62416c57734963.faa6ba63383c4086ba587abf26b85814.v1-default-1643 - Results dataset (StoreId, ProductId).csv')
-    prod_info = pd.read_csv('peele_island_product_data.csv')
+        pd.read_csv('Recommender_System_Pelee_Island_Web_Service_StoreId_ProductId.csv')
+    prod_info = pd.read_csv('pelee_island_product_data.csv')
 
     
     # Create the dictionary
